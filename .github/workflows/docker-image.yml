@@ -22,8 +22,10 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
 
     - name: Build Docker Image
+      run: |
         docker build -t firthuns/docker-graphql:0.0.2 .
         docker build -t firthuns/docker-graphql:latest .
     - name: Push Docker Image
+      run: |
         docker build -t firthuns/docker-graphql:0.0.2 .
         docker build -t firthuns/docker-graphql:latest .
