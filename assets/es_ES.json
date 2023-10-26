@@ -1,0 +1,27 @@
+{
+  "http-responses": {
+    "codes": {
+      "aaa": "bbb"
+    },
+    "process2": {
+      "aaa": "bbb"
+    },
+    "types": {
+      "update": "Error de actualización"
+    }
+  },
+  "monda": "hola",
+  "preweights": {
+    "common": {
+      "buttons": {
+        "cancel": "Cancelar"
+      },
+      "code": "Código",
+      "order": "Orden"
+    },
+    "process": {
+      "s": "d",
+      "title": "Proceso de prepesado"
+    }
+  }
+}
